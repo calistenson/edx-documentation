@@ -27,14 +27,13 @@ This section contains the following topics.
 Message Addressing
 *************************
 
-When you send an email message from the instructor dashboard, you choose its
-recipients by selecting one of these predefined groups.
+When you send an email message from the Instructor Dashboard, you choose its
+recipients by selecting a **Send to** option. If applicable, you can select
+more than one option at a time.
 
 * **Myself**, to test out a message before sending it to a larger group.
-* **Staff and admins**, to contact other members of the course
-  team.
-* **All (learners, staff and admins)**, to communicate with currently
-  enrolled learners and the course team.
+* **Staff and admins**, to contact other members of the course team.
+* **All learners**, to communicate with all currently enrolled learners.
 
   Email messages are sent to all enrolled learners with these exceptions.
 
@@ -44,10 +43,10 @@ recipients by selecting one of these predefined groups.
     Settings** link, which is present for each course on the **Current
     Courses** dashboard.
 
-Before you use the bulk email feature, consider that messages **cannot be
-canceled** after they are sent. If you plan to send a message to all course
-participants, be sure to review each draft carefully, and send the message to
-yourself first for thorough testing.
+.. note:: Before you use the bulk email feature, consider that messages cannot
+   be cancelled after they are sent. Before sending a message, be sure to
+   review each draft carefully, and send the message to yourself first for
+   thorough testing.
 
 .. _Options for Email Message Text:
 
@@ -111,12 +110,16 @@ To send an email message to course participants, follow these steps.
 
 #. Select **Instructor**, and then select **Email**.
 
-#. Select who you want to send the message to from the **Send to** drop-down
-   list. You select from the following options.
+#. Select email recipients from the **Send to** list. If applicable, you can
+   select more than one option.
 
-   * **Myself**
-   * **Staff and admins**
-   * **All (students, staff and admins)**
+  * **Myself**
+  * **Staff and admins**
+  * **All learners**
+
+
+4. Enter a **Subject** for the message. A subject is required.
+
 
    .. note:: Errors in bulk email messages can be very visible. As a best
     practice, be sure to send the message to yourself first for review and
