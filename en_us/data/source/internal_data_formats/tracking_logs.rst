@@ -791,8 +791,6 @@ a different ``event_type`` value.
   event with both an ``event_type`` and ``name`` of
   ``edx.ui.lms.sequence.previous_selected``.
 
-Events that have both a ``name`` and an ``event_type`` of ``seq_prev`` are no
-longer emitted.
 
 **Component**: Sequence
 
