@@ -753,7 +753,7 @@ using the "next" control.
          "current_tab": 6,
          "tab_count": 6,
          "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
-         "widget_placement": "bottom"
+         "widget_placement": "top"
          }
  }
 
@@ -813,6 +813,44 @@ events of this type as for ``edx.ui.lms.sequence.next_selected`` events.
 * ``old``
 * ``tab_count``
 * ``widget_placement``
+
+Example ``edx.ui.lms.sequence.previous_selected`` events
+********************************************************
+
+The following example shows the event that is emitted when a user navigates
+within the same subsection using the "previous" control.
+
+.. code-block:: json
+
+  {
+    "name": "edx.ui.lms.sequence.previous_selected",
+    "event_type": "seq_prev",
+    "event": {
+        "current_tab": 2,
+        "tab_count": 6
+        "old": 2,
+        "new": 1,
+        "id":     "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+        "widget_placement": "top"
+      }
+   }
+
+The following example shows the event that is emitted when a user navigates
+from the first unit in one subsection to the last unit in the previous subsection
+using the "previous" control.
+
+.. code-block:: json
+
+ {
+     "name": "edx.ui.lms.sequence.previous_selected",
+     "event_type": "edx.ui.lms.sequence.previous_selected",
+     "event": {
+         "current_tab": 1,
+         "tab_count": 6,
+         "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+         "widget_placement": "top"
+         }
+ }
 
 
 ``edx.ui.lms.sequence.tab_selected``
