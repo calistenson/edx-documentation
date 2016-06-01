@@ -828,7 +828,7 @@ within the same subsection using the "previous" control.
         "tab_count": 6
         "old": 2,
         "new": 1,
-        "id":     "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+        "id": "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
         "widget_placement": "top"
       }
    }
