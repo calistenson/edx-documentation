@@ -632,19 +632,22 @@ from one unit to the next unit within the current subsection, or from the last
 unit in one subsection to the first unit in the next subsection.
 
 **History** : On May 3, 2016, the "next" navigation control in the LMS was
-enhanced to allow users to move not only within a subsection but also
-between subsections. The ``seq_next`` event was correspondingly enhanced
-with additional fields and now maps to the new event
-``edx.ui.lms.sequence.next_selected``.
+enhanced to allow users to move not only within a subsection but also between
+subsections. The ``seq_next`` event was correspondingly enhanced with
+additional fields and now maps to the new event
+``edx.ui.lms.sequence.next_selected``. Before May 3, 2016, the ``name`` and
+``event`` fields for the ``seq_next`` event were both set to the same value.
+Events that have both a ``name`` and an ``event_type`` of ``seq_next`` are no
+longer emitted.
 
-This new event is emitted when users navigate in the LMS using the "next"
-control. Depending on whether a learner navigates within the current
-subsection or between subsections, the resulting event has a different
-``event_type`` value.
+The new event with a ``name`` value of ``edx.ui.lms.sequence.next_selected``
+is emitted when users navigate in the LMS using the "next" control. Depending
+on whether a learner navigates within the current subsection or between
+subsections, the resulting event has a different ``event_type`` value.
 
 * Navigating to the next unit within a subsection (the already supported
   interaction that previously emitted the ``seq_next`` event) now emits the
-  new event with an ``event_type`` of ``seq_prev``, so that you can continue
+  new event with an ``event_type`` of ``seq_next``, so that you can continue
   to track the same interaction.
 
 * Navigating from the last unit in one subsection to the first unit in the
@@ -652,8 +655,7 @@ subsection or between subsections, the resulting event has a different
   event with both an ``event_type`` and ``name`` of
   ``edx.ui.lms.sequence.next_selected``.
 
-Events that have both a ``name`` and an ``event_type`` of ``seq_next`` are no
-longer emitted.
+
 
 **Component**: Sequence
 
@@ -743,15 +745,19 @@ from one unit back to the previous unit within the current subsection, or from t
 unit in one subsection to the last unit in the previous subsection.
 
 **History** : On May 3, 2016, the "previous" navigation control in the LMS was
-enhanced to allow users to move not only within a subsection but also
-between subsections. The ``seq_prev`` event was correspondingly enhanced
-with additional fields and now maps to the new event
-``edx.ui.lms.sequence.previous_selected``.
+enhanced to allow users to move not only within a subsection but also between
+subsections. The ``seq_prev`` event was correspondingly enhanced with
+additional fields and now maps to the new event
+``edx.ui.lms.sequence.previous_selected``. Before May 3, 2016, the ``name``
+and ``event`` fields for the ``seq_prev`` event were both set to the same
+value. Events that have both a ``name`` and an ``event_type`` of ``seq_prev``
+are no longer emitted.
 
-This new event is emitted when users navigate in the LMS using the "previous"
-control. Depending on whether a learner navigates within the current
-subsection or between subsections, the resulting event has a different
-``event_type`` value.
+The new event with a ``name`` value of
+``edx.ui.lms.sequence.previous_selected``is emitted when users navigate in the
+LMS using the "previous" control. Depending on whether a learner navigates
+within the current subsection or between subsections, the resulting event has
+a different ``event_type`` value.
 
 * Navigating to the previous unit within a subsection (the already supported
   interaction that previously emitted the ``seq_prev`` event) now emits the
@@ -795,15 +801,15 @@ navigation bar in the LMS to navigate to another unit within the subsection.
 
 **History** : On May 3, 2016, the ``seq_goto`` event was promoted to a new
 naming infrastructure and now maps to the new event
-``edx.ui.lms.sequence.tab_selected``.
+``edx.ui.lms.sequence.tab_selected``. Before May 3, 2016, the ``name`` and
+``event`` fields for the ``seq_goto`` event were both set to the same value.
 
 New fields have been added to the event, but existing fields are retained for
-backward compatibility. The ``event_type`` field has a value of ``seq_goto``,
-to ensure that you can map these new events to the   ``seq_goto`` events that
-were emitted previously.
-
-Events that have both a ``name`` and an ``event_type`` of ``seq_goto`` are no
-longer emitted.
+backward compatibility. The updated event has a ``name`` value of
+``edx.ui.lms.sequence.tab_selected`` and an ``event_type`` value of
+``seq_goto``, to ensure that you can map these new events to the ``seq_goto``
+events that were emitted previously. Events that have both a ``name`` and an
+``event_type`` of ``seq_goto`` are no longer emitted.
 
 **Component**: Sequence
 
