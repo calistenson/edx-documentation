@@ -719,8 +719,30 @@ and an ``event_type`` field.
        LMS. Values for this field can be "top" or "bottom", indicating the
        position on the page of the control that the user selected.
 
-Example ``edx.ui.lms.sequence.next_selected`` event
-***************************************************
+Example ``edx.ui.lms.sequence.next_selected`` events
+*****************************************************
+
+The following example shows the event that is emitted when a user navigates
+within the same subsection using the "next" control.
+
+.. code-block:: json
+
+  {
+    "name": "edx.ui.lms.sequence.next_selected",
+    "event_type": "seq_next",
+    "event": {
+        "current_tab": 3,
+        "tab_count": 6
+        "old": 3,
+        "new": 4,
+        "id":     "block-v1:edX+DemoX+Demo_Course+type@sequential+block@19a30717eff543078a5d94ae9d6c18a5",
+        "widget_placement": "top"
+      }
+   }
+
+The following example shows the event that is emitted when a user navigates
+from the last unit in one subsection to the first unit in the next subsection
+using the "next" control.
 
 .. code-block:: json
 
