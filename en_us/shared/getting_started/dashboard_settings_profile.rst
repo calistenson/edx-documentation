@@ -31,10 +31,10 @@ course or browsing the course catalog.
 
 * The :ref:`Account Settings<SFD Account Settings>` page allows you to change
   settings such as your email address, education level, and country or region,
-  and to link your edX account to a Facebook or Google account. You can also
-  view a history of any purchases you have made. To access the **Account
-  Settings** page at any time, select the arrow next to your username in the
-  upper right corner of any edX page, and then select **Account**.
+  and to link your edX account to a social media or organization account. You
+  can also view a history of any purchases you have made. To access the
+  **Account Settings** page at any time, select the arrow next to your username
+  in the upper right corner of any edX page, and then select **Account**.
 
 .. _SFD Learner Dashboard:
 
@@ -375,8 +375,8 @@ To view or change this information, follow these steps.
 
 #. On the **Account Settings** page, select **Account Information**.
 
-#. On the **Account Information** page, locate the **Basic Account Information
-   (required)** section, and then make your changes.
+#. On the **Account Information** page, locate the **Basic Account
+   Information** section, and then make your changes.
 
 EdX saves your changes automatically.
 
@@ -405,8 +405,8 @@ To view or change this information, follow these steps.
 
 #. On the **Account Settings** page, select **Account Information**.
 
-#. On the **Account Information** page, locate the **Additional Information
-   (optional)** section, and then make your changes.
+#. On the **Account Information** page, locate the **Additional Information**
+   section, and then make your changes.
 
 EdX saves your changes automatically.
 
