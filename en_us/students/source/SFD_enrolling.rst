@@ -56,8 +56,7 @@ To enroll in a course, follow these steps.
      Certificates`.
 
      After you submit a payment for a verified certificate, you can view that
-     payment at any time. For more information, see :ref:`View Purchase
-     Information`.
+     payment at any time. For more information, see :ref:`View Order History`.
 
 #. After you enroll in the course, your dashboard opens automatically. When
    your dashboard opens, verify that the new course appears in your list of

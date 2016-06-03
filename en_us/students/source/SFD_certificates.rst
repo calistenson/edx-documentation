@@ -117,8 +117,7 @@ see :ref:`SFD Verify Your Identity`.
  verify your identity again.
 
 After you submit a payment for a verified certificate, you can view that
-payment at any time. For more information, see :ref:`View Purchase
-Information`.
+payment at any time. For more information, see :ref:`View Order History`.
 
 If you have a question or an issue with billing for a verified certificate,
 contact edX at `billing@edx.org <mailto://billing@edx.org>`_. Include your

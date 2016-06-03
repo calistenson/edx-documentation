@@ -24,17 +24,17 @@ course or browsing the course catalog.
   To access your dashboard at any time, select your username in the upper
   right corner of any edX page.
 
-* The :ref:`Account Settings<SFD Account Settings>` page allows you to change
-  settings such as your email address, education level, and country or region,
-  and to link your edX account to a Facebook or Google account. You can also
-  view a history of any purchases you have made. To access your account
-  settings at any time, select the arrow next to your username in the upper
-  right corner of any edX page, and then select **Account Settings**.
-
 * On your :ref:`profile page<SFD Profile Page>`, you can create a profile that
   includes an image and biographical information. To access your profile at
   any time, select the arrow next to your username in the upper right
-  corner of any edX page, and then select **My Profile**.
+  corner of any edX page, and then select **Profile**.
+
+* The :ref:`Account Settings<SFD Account Settings>` page allows you to change
+  settings such as your email address, education level, and country or region,
+  and to link your edX account to a Facebook or Google account. You can also
+  view a history of any purchases you have made. To access the **Account
+  Settings** page at any time, select the arrow next to your username in the
+  upper right corner of any edX page, and then select **Account**.
 
 .. _SFD Learner Dashboard:
 
@@ -131,6 +131,7 @@ Find or Change Course Information
     more information, see :ref:`learners:SFD Verify Your Identity`.
 
 
+.. only:: Partners
 
   .. _Programs Page:
 
@@ -169,144 +170,6 @@ Find or Change Course Information
     programs for which you have earned certificates. For more information about
     the program, or to view the certificate, select the name of the program.
 
-
-.. _SFD Account Settings:
-
-****************************************
-Exploring the Account Settings Page
-****************************************
-
-Your **Account Settings** page contains several types of information.
-
-* Basic, required information, including your email address and your name.
-* Additional, optional information, such as the level of education you have
-  completed.
-* Links to connect your Facebook and Google accounts with your edX account.
-* Information about any payments you have made, such as the fee for a verified
-  certificate.
-
-You can view this information at any time. You can also add or change some of
-this information.
-
-.. _SFD Basic Information:
-
-==========================================
-View or Change Basic Account Information
-==========================================
-
-Basic account information includes the following information. This information
-is required for every account on edX.
-
-* **Username**: The name that identifies you on edx.org. Note that you cannot
-  change your edX username.
-
-* **Full Name**: The name that appears on your edX certificates. Other learners
-  cannot see your full name.
-
-* **Email Address**: The email address you use to sign in to edX. You may
-  receive communications from edX and your courses at this address.
-
-* **Password**: Your password on edx.org. To reset your password, select
-  **Reset Password**. EdX then sends a message to the email address in the
-  **Email Address** field. You select the link in the message to finish
-  resetting your password.
-
-* **Language**: The language that the edX site uses during your visits. The edX
-  site is currently available in a limited number of languages.
-
-* **Country or Region**: The country or region that you live in.
-
-To view or change this information, follow these steps.
-
-.. note:: You cannot change your edX username.
-
-#. On any edX page, select the arrow next to your username in the upper right
-   corner, and then select **Account Settings**.
-
-#. On the **Account Settings** page, select **Account Information**.
-
-#. On the **Account Information** page, locate the **Basic Account Information
-   (required)** section, and then make your changes.
-
-EdX saves your changes automatically.
-
-.. _SFD Additional Info:
-
-==========================================
-Specify Additional Information
-==========================================
-
-Additional account information is optional and includes the following
-information.
-
-* **Education Completed**: The highest level of education that you have
-  completed.
-* **Gender**: The gender you identify as.
-
-* **Year of Birth**: The year that you were born.
-
-* **Preferred Language**: The language that you prefer to communicate in.
-
-To view or change this information, follow these steps.
-
-#. On any edX page, select the arrow next to your username in the upper right
-   corner, and then select **Account Settings**.
-
-#. On the **Account Settings** page, select **Account Information**.
-
-#. On the **Account Information** page, locate the **Additional Information
-   (optional)** section, and then make your changes.
-
-EdX saves your changes automatically.
-
-==========================================
-Link or Unlink a Social Media Account
-==========================================
-
-.. Not sure what to do with this next section, pending response to query in
-.. ECOM-2361
-
-You can link your edX account to your Facebook or Google account. If you
-link your accounts, you can sign in to edX automatically by signing in to
-Facebook or Google.
-
-To link your accounts, follow these steps.
-
-#. On any edX page, select the arrow next to your username in the upper right
-   corner, and then select **Account Settings**.
-
-#. In the **Connected Accounts** section, select **Link** next to either
-   Facebook or Google.
-
-   If you want to unlink your edX account from your Facebook or Google
-   account, select **Unlink** next to either Facebook or Google in the
-   **Connected Accounts** section.
-
-.. _View Purchase Information:
-
-===========================
-View Purchase Information
-===========================
-
-The **Order History** page contains information about any purchases you have
-made on edX. This information includes the following details.
-
-* Your full name (or username?).
-* The name of your course.
-* The date you placed your order.
-* The total charge for your order, in USD(?).
-* The edX order number.
-* A link to a receipt for each order.
-
-To view information about your edX purchases, follow these steps.
-
-#. On any edX page, select the arrow next to your username in the upper right
-   corner, and then select **Account Settings**.
-
-#. On the **Account Settings** page, select **Order History**.
-
-To view information about a specific purchase, locate the transaction that you
-want, and then select **Order Details**.
 
 .. _SFD Profile Page:
 
@@ -354,7 +217,7 @@ A limited profile includes only your username and, optionally, an image.
 To create or edit a limited profile, follow these steps.
 
 #. On any edX page, select the arrow next to your username in the upper right
-   corner, and then select **My Profile**.
+   corner, and then select **Profile**.
 
 #. On your profile page, locate **edX learners can see my** in the
    upper left corner of the page, and then select **Limited Profile**.
@@ -402,7 +265,7 @@ country or region are required.
 To create or edit your profile, follow these steps.
 
 #. On any edX page, select the arrow next to your username in the upper right
-   corner, and then select **My Profile**.
+   corner, and then select **Profile**.
 
 #. Locate **edX learners can see my** in the upper left corner of the page,
    and then select **Full Profile**.
@@ -455,5 +318,144 @@ username on the **Active Threads** page, and the learner's profile page.
   :alt: Image of a discussion with a learner's username circled, an image of
       that learner's active threads page in the course discussions, and an
       image of the learner's profile
+
+.. _SFD Account Settings:
+
+****************************************
+Exploring the Account Settings Page
+****************************************
+
+Your **Account Settings** page has three tabs.
+
+* The **Account Settings** tab includes basic, required information, such as
+  your username, as well as additional, optional information, such as the level
+  of education you have completed.
+* The **Linked Accounts** tab lists social media and other accounts that you
+  can connect to your edX account.
+* The **Order History** tab lists information about payments you have made,
+  such as the fee for a verified certificate.
+
+You can view this information at any time. You can also add or change some of
+this information.
+
+.. _SFD Basic Information:
+
+==========================================
+View or Change Basic Account Information
+==========================================
+
+Basic account information includes the following information. This information
+is required for every account on edX.
+
+* **Username**: The name that identifies you on edx.org. Note that you cannot
+  change your edX username.
+
+* **Full Name**: The name that appears on your edX certificates. Other learners
+  cannot see your full name.
+
+* **Email Address**: The email address you use to sign in to edX. You may
+  receive communications from edX and your courses at this address.
+
+* **Password**: Your password on edx.org. To reset your password, select
+  **Reset Password**. EdX then sends a message to the email address in the
+  **Email Address** field. You select the link in the message to finish
+  resetting your password.
+
+* **Language**: The language that the edX site uses during your visits. The edX
+  site is currently available in a limited number of languages.
+
+* **Country or Region**: The country or region that you live in.
+
+To view or change this information, follow these steps.
+
+.. note:: You cannot change your edX username.
+
+#. On any edX page, select the arrow next to your username in the upper right
+   corner, and then select **Account**.
+
+#. On the **Account Settings** page, select **Account Information**.
+
+#. On the **Account Information** page, locate the **Basic Account Information
+   (required)** section, and then make your changes.
+
+EdX saves your changes automatically.
+
+.. _SFD Additional Info:
+
+==========================================
+Specify Additional Information
+==========================================
+
+Additional account information is optional and includes the following
+information.
+
+* **Education Completed**: The highest level of education that you have
+  completed.
+
+* **Gender**: The gender you identify as.
+
+* **Year of Birth**: The year that you were born.
+
+* **Preferred Language**: The language that you prefer to communicate in.
+
+To view or change this information, follow these steps.
+
+#. On any edX page, select the arrow next to your username in the upper right
+   corner, and then select **Account**.
+
+#. On the **Account Settings** page, select **Account Information**.
+
+#. On the **Account Information** page, locate the **Additional Information
+   (optional)** section, and then make your changes.
+
+EdX saves your changes automatically.
+
+==========================================
+Link or Unlink a Social Media Account
+==========================================
+
+You can link your edX account to social media and other accounts, including
+Facebook, Google, school, and company accounts. When your accounts are linked,
+you can sign in to edX automatically by signing in to your other account.
+
+To link your edX account with another account, follow these steps.
+
+#. On any edX page, select the arrow next to your username in the upper right
+   corner, and then select **Account**.
+
+#. On the **Account Settings** page, select the **Linked Accounts** tab.
+
+#. Under **Linked Accounts**, select **Link Your Account** under the name of
+   the account that you want to link to your edX account.
+
+   If you want to unlink your edX account from another social media account,
+   select **Unlink This Account** under that account name.
+
+.. _View Order History:
+
+===========================
+View Your Order History
+===========================
+
+The **Order History** tab contains information about any purchases you have
+made on edX. This information includes the following details.
+
+* Your full name (or username?).
+* The name of your course.
+* The date you placed your order.
+* The total charge for your order, in USD(?).
+* The edX order number.
+* A link to a receipt for each order.
+
+To view information about your edX purchases, follow these steps.
+
+#. On any edX page, select the arrow next to your username in the upper right
+   corner, and then select **Account**.
+
+#. On the **Account Settings** page, select **Order History**.
+
+To view information about a specific purchase, locate the transaction that you
+want, and then select **Order Details**.
+
 
 .. include:: ../../../links/links.rst
