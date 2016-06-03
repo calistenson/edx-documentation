@@ -637,7 +637,8 @@ content.
 ``event`` **Member Fields**:
 
 The ``edx.ui.lms.sequence.link_clicked`` event includes both a ``name`` field
-and an ``event_type`` field.
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
 
 ``event`` **Member Fields**:
 
@@ -661,6 +662,9 @@ and an ``event_type`` field.
 Example ``edx.ui.lms.sequence.link_clicked`` event
 ***************************************************
 
+The following example shows the relevant fields of the event that is emitted
+when a user clicks any HTML link from the course content.
+
 .. code-block:: json
 
  {
@@ -673,13 +677,11 @@ Example ``edx.ui.lms.sequence.link_clicked`` event
  }
 
 
-
-
 edx.ui.lms.outline.selected
 ****************************
 
 The browser emits this event when a user selects a course component in the
-course navigation pane.
+course navigation pane in the LMS.
 
 **History**: This new event was added on May 5, 2016.
 
@@ -690,7 +692,8 @@ course navigation pane.
 ``event`` **Member Fields**:
 
 The ``edx.ui.lms.sequence.outline.selected`` event includes both a ``name``
-field and an ``event_type`` field.
+field and an ``event_type`` field. For more information about these common
+fields, see :ref:`common`.
 
 ``event`` **Member Fields**:
 
@@ -728,6 +731,9 @@ field and an ``event_type`` field.
 
 Example ``edx.ui.lms.outline.selected`` event
 ***************************************************
+
+The following example shows the relevant fields of the event that is emitted
+when a user clicks any component on the course navigation pane in the LMS.
 
 .. code-block:: json
 
