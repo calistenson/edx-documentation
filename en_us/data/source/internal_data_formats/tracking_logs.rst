@@ -656,13 +656,13 @@ subsections, the resulting event has a different ``event_type`` value.
   ``edx.ui.lms.sequence.next_selected``.
 
 
-
 **Component**: Sequence
 
 **Event Source**: Browser
 
 The ``edx.ui.lms.sequence.next_selected`` event includes both a ``name`` field
-and an ``event_type`` field.
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
 
 ``event`` **Member Fields**:
 
@@ -704,9 +704,9 @@ and an ``event_type`` field.
        ``seq_next`` to enable backward compatibility with the ``seq_next``
        events emitted prior to 3 May 2016.
 
-       New ``edx.ui.lms.sequence.next_selected`` events use the
-       ``current_tab`` value to identify the user's position in the unit, and
-       do not include this field.
+       The ``edx.ui.lms.sequence.next_selected`` events emitted after 3 May
+       2016 use the ``current_tab`` value to identify the user's position in
+       the unit, and do not include this field.
 
    * - ``tab_count``
      - integer
@@ -722,8 +722,8 @@ and an ``event_type`` field.
 Example ``edx.ui.lms.sequence.next_selected`` events
 *****************************************************
 
-The following example shows the event that is emitted when a user navigates
-within the same subsection using the "next" control.
+The following example shows the relevant fields in the event that is emitted
+when a user navigates within the same subsection using the "next" control.
 
 .. code-block:: json
 
@@ -740,9 +740,9 @@ within the same subsection using the "next" control.
       }
    }
 
-The following example shows the event that is emitted when a user navigates
-from the last unit in one subsection to the first unit in the next subsection
-using the "next" control.
+The following example shows the relevant fields in the event that is emitted
+when a user navigates from the last unit in one subsection to the first unit
+in the next subsection using the "next" control.
 
 .. code-block:: json
 
@@ -762,22 +762,23 @@ using the "next" control.
 *****************************************
 
 The browser emits this event when a user selects the "previous" control in the
-unit navigation bar in the LMS. Users can use the "previous" control to navigate
-from one unit back to the previous unit within the current subsection, or from the first
-unit in one subsection to the last unit in the previous subsection.
+unit navigation bar in the LMS. Users can use the "previous" control to
+navigate from one unit back to the previous unit within the current
+subsection, or from the first unit in one subsection to the last unit in the
+previous subsection.
 
 **History** : On May 3, 2016, the "previous" navigation control in the LMS was
 enhanced to allow users to move not only within a subsection but also between
 subsections. The ``seq_prev`` event was correspondingly enhanced with
 additional fields and now maps to the new event
-``edx.ui.lms.sequence.previous_selected``. Before May 3, 2016, the ``name``
+``edx.ui.lms.sequence.previous_selected``. Before May 3 2016, the ``name``
 and ``event`` fields for the ``seq_prev`` event were both set to the same
 value. Events that have both a ``name`` and an ``event_type`` of ``seq_prev``
 are no longer emitted.
 
-The new event with a ``name`` value of
-``edx.ui.lms.sequence.previous_selected``is emitted when users navigate in the
-LMS using the "previous" control. Depending on whether a learner navigates
+After May 3 2016, an event that has a ``name`` value of
+``edx.ui.lms.sequence.previous_selected`` is emitted when users navigate in
+the LMS using the "previous" control. Depending on whether a learner navigates
 within the current subsection or between subsections, the resulting event has
 a different ``event_type`` value.
 
@@ -797,7 +798,8 @@ a different ``event_type`` value.
 **Event Source**: Browser
 
 The ``edx.ui.lms.sequence.previous_selected`` event includes both a ``name``
-field and an ``event_type`` field.
+field and an ``event_type`` field. For more information about these common
+fields, see :ref:`common`.
 
 ``event`` **Member Fields**:
 
@@ -815,8 +817,8 @@ events of this type as for ``edx.ui.lms.sequence.next_selected`` events.
 Example ``edx.ui.lms.sequence.previous_selected`` events
 ********************************************************
 
-The following example shows the event that is emitted when a user navigates
-within the same subsection using the "previous" control.
+The following example shows the relevant fields in the event that is emitted
+when a user navigates within the same subsection using the "previous" control.
 
 .. code-block:: json
 
@@ -833,9 +835,9 @@ within the same subsection using the "previous" control.
       }
    }
 
-The following example shows the event that is emitted when a user navigates
-from the first unit in one subsection to the last unit in the previous subsection
-using the "previous" control.
+The following example shows the relevant fields in the event that is emitted
+when a user navigates from the first unit in one subsection to the last unit
+in the previous subsection using the "previous" control.
 
 .. code-block:: json
 
@@ -856,6 +858,7 @@ using the "previous" control.
 
 The browser emits this event when a user selects any tab in the unit
 navigation bar in the LMS to navigate to another unit within the subsection.
+Tabs correspond to the unit in the subsection (or verticals in the sequence).
 
 **History** : On May 3, 2016, the ``seq_goto`` event was promoted to a new
 naming infrastructure and now maps to the new event
@@ -874,7 +877,8 @@ events that were emitted previously. Events that have both a ``name`` and an
 **Event Source**: Browser
 
 The ``edx.ui.lms.sequence.tab_selected`` event includes both a ``name`` field
-and an ``event_type`` field.
+and an ``event_type`` field. For more information about these common fields,
+see :ref:`common`.
 
 ``event`` **Member Fields**:
 
