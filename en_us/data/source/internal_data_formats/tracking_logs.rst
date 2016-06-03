@@ -713,7 +713,7 @@ fields, see :ref:`common`.
    * - ``target_name``
      - string
      - The readable name of the unit or subsection that the user is navigating
-       to.
+       to on the page identified by ``target_url``.
 
    * - ``target_url``
      - string
@@ -721,11 +721,12 @@ fields, see :ref:`common`.
 
    * - ``widget_placement``
      - string
-     - Indicates the position on the page of the control that the user selected.
-       For this event, the control is the course navigation pane at the side of
-       the course page, identified as ``accordion``.
+     - Indicates the position on the page of the control that the user
+       selected.
 
-.. what about target_usage_key which is mentioned in the wiki?
+       For this event, the control is the course navigation pane at the side of
+       the course page, identified with a value of ``accordion``.
+
 
 
 
